@@ -24,16 +24,3 @@ repos:
         name: Format Python imports
         args:
           - --profile=black
-
-  - repo: https://github.com/jazzband/pip-tools
-    rev: 6.9.0
-    hooks:
-      - id: pip-compile
-        name: Compile Python requirements
-
-
-      - id: pip-compile
-        name: Upgrade Python dependencies
-        stages: [manual]
-        args:
-          - --upgrade
