@@ -17,7 +17,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         json.dumps(
             {
                 "schemaVersion": 1,
-                "label": "Topic Deadline in",
+                "label": "Topics Due Date ",
                 "message": msg,
                 "color": "blue",
             }
